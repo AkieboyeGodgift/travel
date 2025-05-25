@@ -148,10 +148,12 @@ input {
   border: none;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
+  border-radius: 10px;
 }
 
 button {
   cursor: pointer;
+  border-radius: 10px;
 }
 
 input {
@@ -350,6 +352,7 @@ input {
   right: 0;
   bottom: 1rem;
   width: 228px;
+  border-radius: 10px;
 }
 
 .home__info-title {
@@ -361,15 +364,18 @@ input {
 
 .home__info-button {
   font-size: var(--smaller-font-size);
+  border-radius: 10px;
 }
 
 .home__info-overlay {
   overflow: var(--img-hidden);
+  
 }
 
 .home__info-img {
   width: 145px;
   transition: var(--img-transition);
+  border-radius: 10px;
 }
 
 .home__info-img:hover {
@@ -384,6 +390,7 @@ input {
   padding: 1rem 2rem;
   font-weight: var(--font-semi-bold);
   transition: .3s;
+  border-radius: 10px;
 }
 
 .button:hover {
@@ -423,6 +430,7 @@ input {
   column-gap: 1rem;
   align-items: center;
   justify-content: center;
+  
 }
 
 .about__img-overlay {
@@ -431,10 +439,12 @@ input {
 
 .about__img-one {
   width: 130px;
+  border-radius: 10px;
 }
 
 .about__img-two {
   width: 180px;
+  border-radius: 10px;
 }
 
 .about__img-one, 
@@ -477,6 +487,7 @@ input {
 
 .discover__img {
   transition: var(--img-transition);
+  border-radius: 10px;
 }
 
 .discover__img:hover {
@@ -520,6 +531,7 @@ input {
 .experience__img-one, 
 .experience__img-two {
   transition: var(--img-transition);
+  border-radius: 10px;
 }
 
 .experience__img-one:hover, 
@@ -546,6 +558,7 @@ input {
 /*=============== VIDEO ===============*/
 .video__container {
   padding-bottom: 1rem;
+  border-radius: 10px;
 }
 
 .video__description {
@@ -555,6 +568,7 @@ input {
 
 .video__content {
   position: relative;
+  
 }
 
 .video__button {
@@ -566,6 +580,10 @@ input {
 
 .video__button-icon {
   font-size: 1.2rem;
+}
+
+#video-file {
+  border-radius: 10px;
 }
 
 /*=============== PLACES ===============*/
@@ -589,6 +607,7 @@ input {
 
 .place__img {
   transition: var(--img-transition);
+  border-radius: 10px;
 }
 
 .place__content, .place__title {
@@ -664,6 +683,7 @@ input {
   padding: .5rem;
   display: flex;
   justify-content: space-between;
+  border-radius: 10px;
 }
 
 .subscribe__input {
@@ -671,6 +691,7 @@ input {
   padding-right: .5rem;
   background-color: var(--input-color);
   color: var(--text-color);
+  
 }
 
 .subscribe__input::placeholder {
